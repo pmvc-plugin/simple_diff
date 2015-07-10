@@ -1,0 +1,17 @@
+{
+    "name": "pmvc-plugin/simple_diff",
+    "description": "Simple diff string",
+    "type": "library",
+    "keywords": ["diff", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "pmvc/pmvc": "*"
+    },
+    "minimum-stability": "dev"
+}
