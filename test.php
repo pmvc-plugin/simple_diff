@@ -1,6 +1,6 @@
 <?php
-PMVC\Load::plug();
-PMVC\addPlugInFolder('../');
+\PMVC\Load::plug();
+\PMVC\addPlugInFolders([__DIR__.'/../']);
 class SimpleDiffTest extends PHPUnit_Framework_TestCase
 {
     function testPlugin()
